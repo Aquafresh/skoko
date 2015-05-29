@@ -1,0 +1,72 @@
+.our-clients {
+
+	background-color: @bgc-white;
+
+	&:before {
+
+		content: '';
+		display: block;
+		border-bottom: 2px solid @bgc-grey;
+		position: relative;
+		top: 15px;
+		z-index: 5;
+	}
+
+	h4 {
+
+		margin-left: 705px;
+		position: relative;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+		background-color: @bgc-grey;
+		font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+		text-transform: uppercase;
+		font-size: 18px;
+		z-index: 10;
+		border-right: 33px solid @bgc-white;
+		border-left: 33px solid @bgc-white;
+		display: inline;
+		padding: 9px 30px;
+
+	}
+
+	>p {
+
+		text-align: center;
+		color: @c-text;
+		font-size: 16px;
+		font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+		margin-bottom: 43px;
+		margin-top: 33px;
+	}
+
+	>.carousel-wrap {
+
+		width: 1400px;
+		margin-left: 147px;
+		display: inline-block;
+		margin-bottom: 120px;
+	}
+
+	.carousel-content {
+
+		position: relative;
+		width: 140px;
+		height: 65px;
+
+		img{
+
+			position: absolute;
+			right: 0;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			max-height: 100%;
+			max-width: 100%;
+			width: auto;
+			height: auto;
+			margin: auto;
+		}
+	}
+}

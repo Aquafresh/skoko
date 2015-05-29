@@ -1,0 +1,79 @@
+.main-carousel .carousel-content {
+
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+
+		h2 {
+
+			text-transform: uppercase;
+			width: 400px;
+			position: absolute;
+			left: 190px;
+			top: 120px;
+			display: inline-block;
+
+				div {
+
+					padding: 0 10px;
+					background-color: @c-yellow;
+
+						&:nth-child(1) {
+
+							margin-bottom: 10px;
+						}
+
+						&:nth-child(2){
+
+							width: 625px;
+
+					}
+			}
+		}
+
+		.carousel-text {
+
+			position: absolute;
+			top:310px;
+			left: 190px;
+
+			p {
+
+				margin-bottom: 3px;
+				color: #fff;
+				font-size: 24px;
+				background-color: @bgc-grey;
+				padding: 0 10px;
+				font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+				line-height: 34px;
+
+				&:nth-child(1) {
+					width: 305px;
+				}
+
+				&:nth-child(2) {
+					width: 290px;
+				}
+
+				&:last-child {
+					width: 230px;
+				}
+			}
+		}
+
+		.order-now {
+
+			font-size: 24px;
+			position: absolute;
+			top: 470px;
+			left: 490px;
+
+			&:hover {
+
+				color: @c-yellow;
+				border-bottom-color: #fff;
+				box-shadow: 0 0 4px 2px grey;
+			}
+		}
+}
+

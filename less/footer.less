@@ -1,0 +1,395 @@
+.main-footer {
+
+	.bg-grey-wrap {
+
+		background-color: @bgc-grey;
+
+		.top-footer {
+
+			color: #fff;
+			padding-top: 30px;
+
+			.about-us-column {
+
+				float: left;
+				width: 413px;
+				margin-right: 122px;
+				padding-left: 120px;
+
+				p {
+
+					font-size: @fz-ltl;
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					margin-bottom: 30px;
+				}
+
+				.btn {
+
+					padding: 5px 0;
+					margin-bottom: 50px;
+					display: block;
+					text-align: center;
+					width: 100px;
+
+					&:hover {
+
+						color: @c-yellow;
+						border-bottom-color: #fff;
+						box-shadow: 0 0 4px 2px grey;
+					}
+				}
+
+				.small-gallery {
+
+					.top-section,
+					.bottom-section {
+
+						display: flex;
+						justify-content: space-between;
+						margin-bottom: 8px;
+
+						.img-wrap {
+
+							position: relative;
+							width: 130px;
+							height: 70px;
+
+							img {
+
+								position: absolute;
+								left: 0;
+								right: 0;
+								top: 0;
+								bottom: 0;
+								max-width: 100%;
+								max-height: 100%;
+								margin: auto;
+								width: auto;
+								height: auto;
+							}
+
+						}
+					}
+
+					.bottom-section  {
+						margin-bottom: 30px;
+					}
+				}
+			}
+
+			.tweets-column {
+
+				float: left;
+				width: 433px;
+
+				.tweet-message {
+
+					margin-bottom: 10px;
+					padding-left: 45px;
+					position: relative;
+
+					.tweet-text {
+
+						font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+						font-size: @fz-ltl;
+
+						span {
+
+							color: @c-yellow;
+							font-size: @fz-ltl;
+						}
+					}
+
+					.tweet-link {
+
+						display: inline-block;
+						margin-top: 5px;
+						margin-bottom: 5px;
+						color: #fff;
+						font-size: @fz-ltl;
+
+						&:hover {
+
+							text-decoration: underline;
+						}
+					}
+
+					.tweet-date {
+
+						display: block;
+						font-size: 10px;
+						color: @c-yellow;
+					}
+
+					&:after {
+
+						content: '\e803';
+						display: block;
+						width: 30px;
+						height: 30px;
+						font-family: @ff-icon;
+						position: absolute;
+						font-size: 28px;
+						top: 3px;
+						left: 3px;
+					}
+				}
+
+				.social {
+
+					margin-top: 30px;
+
+					p {
+
+						float: left;
+						font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+						font-size: @fz-normal;
+						line-height: 26px;
+					}
+
+					.social-btns {
+
+						float: right;
+						font-size: 0;
+						margin-right: 20px;
+
+						li {
+
+							display: inline-block;
+							font-size: 18px;
+							vertical-align: top;
+
+							a {
+
+								display: block;
+								width: 30px;
+								height: 30px;
+								background-color: #000;
+								margin-left: 2px;
+								color: #fff;
+								text-align: center;
+								line-height: 30px;
+
+								&:hover {
+
+									background-color: @c-yellow;
+									color: #000;
+								}
+							}
+						}
+					}
+
+					&:after {
+
+						content: '';
+						display: table;
+						clear: both;
+					}
+				}
+			}
+
+			.contact-column {
+
+				float: right;
+				width: 321px;
+				margin-right: 60px;
+
+				.contact-adress {
+
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-size: @fz-ltl;
+					padding-left: 40px;
+					margin-bottom: 10px;
+					position: relative;
+					line-height: 25px;
+
+					&:after {
+
+						content: '\e80a';
+						display: block;
+						width: 25px;
+						height: 25px;
+						font-size: 20px;
+						font-family: @ff-icon;
+						background-color: #000;
+						position: absolute;
+						text-align: center;
+						line-height: 25px;
+						top: 3px;
+						left: 0;
+					}
+				}
+
+				.contact-phone {
+
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-size: @fz-ltl;
+					padding-left: 40px;
+					margin-bottom: 10px;
+					position: relative;
+					line-height: 32px;
+
+					&:after {
+
+						content: '\e80c';
+					 	display: block;
+						width: 25px;
+						height: 25px;
+						font-size: 20px;
+						font-family: @ff-icon;
+						background-color: #000;
+						position: absolute;
+						text-align: center;
+						line-height: 25px;
+						top: 3px;
+						left: 0;
+					}
+				}
+
+				.contact-email {
+
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-size: @fz-ltl;
+					padding-left: 40px;
+					position: relative;
+					line-height: 32px;
+					margin-bottom: 30px;
+
+						a {
+
+							color: #fff;
+
+							&:hover {
+
+								text-decoration: underline;
+							}
+						}
+
+					&:after {
+
+						content: '\e80b';
+					 	display: block;
+						width: 25px;
+						height: 25px;
+						font-size: 20px;
+						font-family: @ff-icon;
+						background-color: #000;
+						position: absolute;
+						text-align: center;
+						line-height: 25px;
+						top: 3px;
+						left: 0;
+					}
+				}
+
+				.follow-text {
+
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-size: @fz-ltl;
+					margin-bottom: 30px;
+					margin-bottom: 30px;
+				}
+
+				.feedback {
+
+					input[type="search"] {
+
+						background-color: @bgc-grey;
+						border: none;
+						border-bottom: 2px solid @c-yellow;
+					}
+
+					.submit {
+
+						border: none;
+						background-color: #000;
+						width: 35px;
+						height: 35px;
+						text-align: center;
+						line-height: 35px;
+					}
+				}
+			}
+
+			.about-us-column,
+			.tweets-column,
+			.contact-column {
+
+				>span {
+
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-size: @fz-normal;
+					margin-bottom: 30px;
+					display: block;
+				}
+			}
+
+		}
+
+		&:after {
+
+			content: '';
+			display: table;
+			clear: both;
+		}
+	}
+
+	.bg-black-wrap {
+
+		background-color: #000;
+
+		.bottom-footer {
+
+			p {
+
+				float: left;
+				color: #eee;
+				font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+				font-size: 14px;
+				margin-bottom: 30px;
+				margin-top: 27px;
+				margin-left: 120px;
+			}
+
+			.main-menu {
+
+				float: right;
+
+				ul {
+
+					font-size: 0;
+
+						li {
+						display: inline-block;
+						margin-bottom: 30px;
+						margin-top: 27px;
+						margin-left: 60px;
+
+						&:last-child {
+							margin-right: 111px;
+						}
+
+						a {
+							font-size: @fz-small;
+							color: #eee;
+							padding: 10px 10px;
+							text-transform: uppercase;
+
+							&:hover {
+
+								background-color: @c-yellow;
+								color: #000;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+	}
+}
