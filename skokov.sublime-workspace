@@ -383,7 +383,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16130,
+				"buffer_size": 16385,
 				"line_ending": "Windows"
 			}
 		},
@@ -412,18 +412,10 @@
 			}
 		},
 		{
-			"file": "css/main.css",
+			"file": "less/our-work.less",
 			"settings":
 			{
-				"buffer_size": 29153,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/footer.less",
-			"settings":
-			{
-				"buffer_size": 6252,
+				"buffer_size": 8438,
 				"line_ending": "Windows"
 			}
 		}
@@ -484,15 +476,15 @@
 	"expanded_folders":
 	[
 		"/E/Web/Skoko",
-		"/E/Web/Skoko/js",
 		"/E/Web/Skoko/less"
 	],
 	"file_history":
 	[
+		"/E/Web/Skoko/less/footer.less",
+		"/E/Web/Skoko/css/main.css",
 		"/E/Web/Skoko/less/our-work.less",
 		"/E/Web/Skoko/less/header.less",
 		"/E/Web/Skoko/less/main-header.less",
-		"/E/Web/Skoko/less/footer.less",
 		"/E/Web/Skoko/less/our-clients.less",
 		"/E/Web/Skoko/less/main.less",
 		"/E/Web/Skoko/less/slider-style.less",
@@ -502,7 +494,6 @@
 		"/E/Web/Skoko/less/features.less",
 		"/E/Web/Skoko/less/top-slider-style.less",
 		"/E/Web/Skoko/less/icon.less",
-		"/E/Web/Skoko/css/main.css",
 		"/E/Web/Skoko/less/header",
 		"/E/Web/Skoko/header.less",
 		"/E/Web/Skoko/css/general-style.less",
@@ -685,15 +676,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16130,
+						"buffer_size": 16385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13666,
-								13660
+								4442,
+								4442
 							]
 						],
 						"settings":
@@ -708,10 +699,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7345.0,
+						"translation.y": 2414.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -809,30 +800,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 4,
-					"file": "css/main.css",
+					"file": "less/our-work.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29153,
+						"buffer_size": 8438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2846,
-								2838
+								4654,
+								4654
 							]
 						],
 						"settings":
@@ -841,48 +832,13 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1323.0,
+						"translation.y": 5724.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "less/footer.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4443,
-								4443
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monarch (SL).tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -916,7 +872,7 @@
 		"cols":
 		[
 			0.0,
-			0.55108716257,
+			0.466467026684,
 			1.0
 		],
 		"rows":
@@ -972,7 +928,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

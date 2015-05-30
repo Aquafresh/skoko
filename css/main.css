@@ -34,7 +34,7 @@ h4 {
 }
 .container {
   margin: 0 auto;
-  width: 1633px;
+  width: 1600px;
 }
 .btn {
   padding: 5px 30px;
@@ -393,7 +393,7 @@ h4 {
   color: #000;
 }
 .our-clients .owl-prev {
-  left: -147px;
+  left: -117px;
   top: 0;
 }
 .our-clients .owl-prev:after {
@@ -409,7 +409,7 @@ h4 {
   top: 7px;
 }
 .our-clients .owl-next {
-  right: -85px;
+  right: -83px;
   top: 0;
 }
 .our-clients .owl-next:after {
@@ -598,7 +598,7 @@ h4 {
 }
 .our-work .wrap-gallery > .work-preview-4 > .work-info {
   position: absolute;
-  width: 275px;
+  width: 242px;
   height: 200px;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 15;
@@ -609,7 +609,7 @@ h4 {
   display: block;
 }
 .our-work .wrap-gallery > .work-preview-4 > .img-wrap {
-  width: 275px;
+  width: 242px;
   height: 200px;
   overflow: hidden;
 }
@@ -619,7 +619,7 @@ h4 {
 }
 .our-work .wrap-gallery > .work-preview-5 > .work-info {
   position: absolute;
-  width: 275px;
+  width: 242px;
   height: 193px;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 15;
@@ -630,7 +630,7 @@ h4 {
   display: block;
 }
 .our-work .wrap-gallery > .work-preview-5 > .img-wrap {
-  width: 275px;
+  width: 242px;
   height: 193px;
   overflow: hidden;
 }
@@ -640,7 +640,7 @@ h4 {
 }
 .our-work .wrap-gallery > .work-preview-6 > .work-info {
   position: absolute;
-  width: 275px;
+  width: 242px;
   height: 183px;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 15;
@@ -651,7 +651,7 @@ h4 {
   display: block;
 }
 .our-work .wrap-gallery > .work-preview-6 > .img-wrap {
-  width: 275px;
+  width: 242px;
   height: 183px;
   overflow: hidden;
 }
@@ -950,7 +950,7 @@ h4 {
 }
 .our-clients > .carousel-wrap {
   width: 1400px;
-  margin-left: 147px;
+  margin-left: 117px;
   display: inline-block;
   margin-bottom: 120px;
 }
