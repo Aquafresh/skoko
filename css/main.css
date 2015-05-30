@@ -533,10 +533,10 @@ h4 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.our-work .wrap-gallery > div:nth-child(1) {
+.our-work .wrap-gallery > .work-preview-1 {
   left: 0px;
 }
-.our-work .wrap-gallery > div:nth-child(1) > .work-info {
+.our-work .wrap-gallery > .work-preview-1 > .work-info {
   position: absolute;
   width: 534px;
   height: 404px;
@@ -545,18 +545,18 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(1):hover .work-info {
+.our-work .wrap-gallery > .work-preview-1:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(1) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-1 > .img-wrap {
   width: 534px;
   height: 404px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(2) {
+.our-work .wrap-gallery > .work-preview-2 {
   left: 543px;
 }
-.our-work .wrap-gallery > div:nth-child(2) > .work-info {
+.our-work .wrap-gallery > .work-preview-2 > .work-info {
   position: absolute;
   width: 534px;
   height: 404px;
@@ -565,18 +565,18 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(2):hover .work-info {
+.our-work .wrap-gallery > .work-preview-2:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(2) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-2 > .img-wrap {
   width: 534px;
   height: 404px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(3) {
+.our-work .wrap-gallery > .work-preview-3 {
   left: 1084px;
 }
-.our-work .wrap-gallery > div:nth-child(3) > .work-info {
+.our-work .wrap-gallery > .work-preview-3 > .work-info {
   position: absolute;
   width: 265px;
   height: 268px;
@@ -585,18 +585,18 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(3):hover .work-info {
+.our-work .wrap-gallery > .work-preview-3:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(3) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-3 > .img-wrap {
   width: 265px;
   height: 268px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(4) {
+.our-work .wrap-gallery > .work-preview-4 {
   right: 0px;
 }
-.our-work .wrap-gallery > div:nth-child(4) > .work-info {
+.our-work .wrap-gallery > .work-preview-4 > .work-info {
   position: absolute;
   width: 275px;
   height: 200px;
@@ -605,19 +605,19 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(4):hover .work-info {
+.our-work .wrap-gallery > .work-preview-4:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(4) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-4 > .img-wrap {
   width: 275px;
   height: 200px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(5) {
+.our-work .wrap-gallery > .work-preview-5 {
   right: 0;
   top: 208px;
 }
-.our-work .wrap-gallery > div:nth-child(5) > .work-info {
+.our-work .wrap-gallery > .work-preview-5 > .work-info {
   position: absolute;
   width: 275px;
   height: 193px;
@@ -626,19 +626,19 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(5):hover .work-info {
+.our-work .wrap-gallery > .work-preview-5:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(5) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-5 > .img-wrap {
   width: 275px;
   height: 193px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(6) {
+.our-work .wrap-gallery > .work-preview-6 {
   right: 0;
   top: 408px;
 }
-.our-work .wrap-gallery > div:nth-child(6) > .work-info {
+.our-work .wrap-gallery > .work-preview-6 > .work-info {
   position: absolute;
   width: 275px;
   height: 183px;
@@ -647,19 +647,19 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(6):hover .work-info {
+.our-work .wrap-gallery > .work-preview-6:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(6) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-6 > .img-wrap {
   width: 275px;
   height: 183px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(7) {
+.our-work .wrap-gallery > .work-preview-7 {
   left: 1084px;
   top: 552px;
 }
-.our-work .wrap-gallery > div:nth-child(7) > .work-info {
+.our-work .wrap-gallery > .work-preview-7 > .work-info {
   position: absolute;
   width: 265px;
   height: 133px;
@@ -668,19 +668,19 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(7):hover .work-info {
+.our-work .wrap-gallery > .work-preview-7:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(7) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-7 > .img-wrap {
   width: 265px;
   height: 133px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(8) {
+.our-work .wrap-gallery > .work-preview-8 {
   left: 1084px;
   top: 276px;
 }
-.our-work .wrap-gallery > div:nth-child(8) > .work-info {
+.our-work .wrap-gallery > .work-preview-8 > .work-info {
   position: absolute;
   width: 265px;
   height: 268px;
@@ -689,19 +689,19 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(8):hover .work-info {
+.our-work .wrap-gallery > .work-preview-8:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(8) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-8 > .img-wrap {
   width: 265px;
   height: 268px;
   overflow: hidden;
 }
-.our-work .wrap-gallery div:nth-child(9) {
+.our-work .wrap-gallery > .work-preview-9 {
   left: 813px;
   top: 410px;
 }
-.our-work .wrap-gallery div:nth-child(9) > .work-info {
+.our-work .wrap-gallery > .work-preview-9 > .work-info {
   position: absolute;
   width: 265px;
   height: 268px;
@@ -710,19 +710,19 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery div:nth-child(9):hover .work-info {
+.our-work .wrap-gallery > .work-preview-9:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery div:nth-child(9) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-9 > .img-wrap {
   width: 265px;
   height: 268px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(10) {
+.our-work .wrap-gallery > .work-preview-10 {
   top: 410px;
   left: 272px;
 }
-.our-work .wrap-gallery > div:nth-child(10) > .work-info {
+.our-work .wrap-gallery > .work-preview-10 > .work-info {
   position: absolute;
   width: 534px;
   height: 404px;
@@ -731,19 +731,19 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(10):hover .work-info {
+.our-work .wrap-gallery > .work-preview-10:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(10) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-10 > .img-wrap {
   width: 534px;
   height: 404px;
   overflow: hidden;
 }
-.our-work .wrap-gallery > div:nth-child(11) {
+.our-work .wrap-gallery > .work-preview-11 {
   top: 410px;
   left: 0;
 }
-.our-work .wrap-gallery > div:nth-child(11) > .work-info {
+.our-work .wrap-gallery > .work-preview-11 > .work-info {
   position: absolute;
   width: 265px;
   height: 268px;
@@ -752,10 +752,10 @@ h4 {
   display: none;
   top: 0;
 }
-.our-work .wrap-gallery > div:nth-child(11):hover .work-info {
+.our-work .wrap-gallery > .work-preview-11:hover .work-info {
   display: block;
 }
-.our-work .wrap-gallery > div:nth-child(11) > .img-wrap {
+.our-work .wrap-gallery > .work-preview-11 > .img-wrap {
   width: 265px;
   height: 268px;
   overflow: hidden;

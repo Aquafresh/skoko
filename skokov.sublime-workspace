@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"bor",
+				"border"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
 				"a",
 				"action	Attr"
 			],
@@ -14,10 +22,6 @@
 			[
 				"cl",
 				"clients"
-			],
-			[
-				"bor",
-				"border-radius"
 			],
 			[
 				"box",
@@ -272,10 +276,6 @@
 				"margin-top"
 			],
 			[
-				"border",
-				"border-radius"
-			],
-			[
 				"backgrou",
 				"background"
 			],
@@ -383,7 +383,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16095,
+				"buffer_size": 16130,
 				"line_ending": "Windows"
 			}
 		},
@@ -415,7 +415,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 28789,
+				"buffer_size": 29153,
 				"line_ending": "Unix"
 			}
 		},
@@ -423,7 +423,7 @@
 			"file": "less/footer.less",
 			"settings":
 			{
-				"buffer_size": 5931,
+				"buffer_size": 6252,
 				"line_ending": "Windows"
 			}
 		}
@@ -685,15 +685,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16095,
+						"buffer_size": 16130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13678,
-								13678
+								13666,
+								13660
 							]
 						],
 						"settings":
@@ -708,10 +708,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8227.0,
+						"translation.y": 7345.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -727,8 +727,8 @@
 						"selection":
 						[
 							[
-								2352,
-								2347
+								2327,
+								2318
 							]
 						],
 						"settings":
@@ -742,7 +742,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -824,7 +824,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28789,
+						"buffer_size": 29153,
 						"regions":
 						{
 						},
@@ -858,15 +858,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5931,
+						"buffer_size": 6252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4803,
-								4803
+								4443,
+								4443
 							]
 						],
 						"settings":
@@ -875,13 +875,14 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4628.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -915,7 +916,7 @@
 		"cols":
 		[
 			0.0,
-			0.421377465226,
+			0.55108716257,
 			1.0
 		],
 		"rows":
