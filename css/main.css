@@ -43,6 +43,9 @@ h4 {
   color: #fff;
   font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
 }
+.bg-white-wrap {
+  background-color: #f6f6f6;
+}
 @font-face {
   font-family: 'symbols-skokov';
   src: url('../font/symbols-skokov.eot?35472533');
@@ -156,8 +159,6 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   color: #000;
-  display: inline-block;
-  vertical-align: top;
   margin-bottom: 73px;
   margin-top: 70px;
   margin-left: 135px;
@@ -483,9 +484,6 @@ h4 {
 .features .features-wrap .features-block .graphic-title {
   background: url("../img/feature-img3.png") no-repeat 50% 40px;
   background-color: #ffeb00;
-}
-.our-work {
-  background-color: #f6f6f6;
 }
 .our-work:before {
   content: '';
@@ -912,9 +910,6 @@ h4 {
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
-}
-.our-clients {
-  background-color: #f6f6f6;
 }
 .our-clients:before {
   content: '';
