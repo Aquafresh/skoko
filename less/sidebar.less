@@ -1,0 +1,140 @@
+.sidebar{
+
+	width: 470px;
+	float: right;
+	outline: 1px solid green;
+	min-height: 100px;
+
+	.sidebar-block {
+
+		padding: 35px;
+		background-color: @bgc-grey;
+		margin-bottom: 30px;
+
+		&:last-child {
+
+			margin-bottom: 0;
+		}
+
+		.sidebar-blocks-title {
+
+			color: @c-yellow;
+			font-size: @fz-big;
+			text-transform: uppercase;
+			margin-bottom: 30px;
+		}
+
+		.details-list {
+
+			padding-left: 47px;
+
+			>li {
+
+				margin-bottom: 30px;
+				color: #fff;
+				text-transform: uppercase;
+				position: relative;
+				font-size: @fz-small;
+
+				&:last-child {
+
+					margin-bottom: 0;
+				}
+
+				&:before {
+
+					content: '\e801';
+					display: block;
+					width: 30px;
+					height: 30px;
+					background-color: @c-yellow;
+					position: absolute;
+					left: -47px;
+					top: -3px;
+					font-family: @ff-icon;
+					text-align: center;
+					font-size: 26px;
+					line-height: 30px;
+					color: @bgc-grey;
+					font-weight: bold;
+				}
+			}
+		}
+
+		.single-post {
+
+			margin-bottom: 25px;
+
+			&:after {
+
+				content: '';
+				display: table;
+				clear: both;
+			}
+
+			&:last-child {
+
+				margin-bottom: 0;
+			}
+
+			.img-wrap {
+
+				width: 100px;
+				height: 70px;
+				position: relative;
+				margin-right: 10px;
+				float: left;
+
+				>img {
+
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					margin: auto;
+					max-width: 100%;
+					max-height: 100%;
+				}
+			}
+
+			a {
+
+				color: #fff;
+				font-size: @fz-small;
+				text-transform: uppercase;
+				margin-bottom: 10px;
+				font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+
+				&:hover {
+
+					color: @c-yellow;
+				}
+			}
+
+			span {
+
+				font-size: 12px;
+				color: @c-yellow;
+				float: right;
+				padding-top: 15px;
+			}
+		}
+
+		.tag {
+
+			font-size: @fz-normal;
+			background-color: @c-yellow;
+			color: @c-text;
+			padding: 3px 5px;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+			display: inline-block;
+
+			&:hover {
+
+				box-shadow: inset 0 0 0 2px @bgc-grey;
+			}
+		}
+	}
+}
