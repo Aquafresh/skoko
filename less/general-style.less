@@ -1,3 +1,7 @@
+body {
+	min-width: 1600px;
+}
+
 body,
 ul,
 p {
@@ -22,7 +26,7 @@ h6 {
 	margin: 0;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
@@ -42,10 +46,12 @@ h4 {
 .container {
 	margin: 0 auto;
 	width: 1600px;
+	background-olor: red;
 }
 
 .btn {
 	padding: 5px 30px;
+	z-index: 20;
 	background-color: #000;
 	border-bottom:3px solid @c-yellow;
 	color: #fff;
@@ -55,10 +61,12 @@ h4 {
 .bg-white-wrap {
 
 	background-color: @bgc-white;
+	width: 100%;
 }
 
 .main-menu .active,
-.portfolio-filter .active {
+.portfolio-filter .active,
+.pagination .active {
 
 	border-bottom: 2px solid @c-text;
 }
@@ -66,7 +74,7 @@ h4 {
 .cf {
 
 	padding-top: 78px;
-	padding-bottom: 100px;
+	padding-bottom: 78px;
 }
 
 .cf:after {

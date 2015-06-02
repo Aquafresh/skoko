@@ -1,0 +1,183 @@
+.blog-content {
+
+	width: 1100px;
+	float: left;
+
+	.column-left {
+
+		float: left;
+		width: 535px;
+	}
+
+	.column-right {
+
+		float: right;
+		width: 535px;
+	}
+
+	.quote-post {
+
+		background-color: @c-yellow;
+		padding: 20px;
+		margin-bottom: 30px;
+		font-style: italic;
+		font-size: 21px;
+
+		cite {
+
+			font-size: 11px;
+			font-style: bold;
+			text-align: right;
+			display: block;
+		}
+	}
+
+	.post {
+
+		background-color: @c-yellow;
+		margin-bottom: 30px;
+		position: relative;
+
+		&:after {
+
+			content: '';
+			display: table;
+			clear: both;
+		}
+
+		&:before {
+
+			content: '';
+			display: block;
+			position: absolute;
+			z-index: 10;
+			top: 361px;
+			right: 50px;
+			width: 0;
+			height: 0;
+			border-left: 15px solid transparent;
+			border-right: 15px solid transparent;
+			border-bottom: 15px solid @c-yellow;
+		}
+
+		>.img-wrap {
+
+			width: 535px;
+			height: 376px;
+			position: relative;
+
+				>img {
+
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					margin: auto;
+					max-width: 100%;
+					max-height: 100%;
+				}
+			}
+
+		>a {
+
+			margin: 25px;
+			display: block;
+			font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 23px;
+			color: #000;
+			text-transform: uppercase;
+
+				&:hover {
+
+					color: @c-text;
+				}
+			}
+
+		.post-text {
+
+			font-size: 14px;
+			color: @c-text;
+			font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+			margin-right: 20px;
+			margin-left: 20px;
+			line-height: 20px;
+			margin-bottom: 30px;
+		}
+
+		.like-counter {
+
+			float: left;
+			margin-left: 20px;
+			margin-bottom: 20px;
+			font-size: 12px;
+			color: @c-text;
+		}
+
+		.post-info {
+
+			float: right;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			font-size: 12px;
+			font-weight: bold;
+			color: #000;
+		}
+	}
+
+	.pagination {
+
+		clear: both;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 75px;
+		padding: 0 20px;
+
+		ul {
+
+			font-size: 0;
+
+			li {
+
+				display: inline-block;
+				font-size: 18px;
+				margin-right: 10px;
+
+				a {
+
+					font-size: 20px;
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-weight: bold;
+					display: block;
+					width: 30px;
+					height: 30px;
+					color: @c-text;
+					text-align: center;
+					line-height: 30px;
+					vertical-align: top;
+
+					&:hover {
+
+						background-color: @c-yellow;
+					}
+				}
+			}
+		}
+
+
+		.prev-btn, .next-btn {
+
+			font-size: 20px;
+			font-weight: bold;
+			font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+			text-transform: uppercase;
+			color: @c-text;
+			padding: 5px 10px;
+
+			&:hover {
+
+				background-color: @c-yellow;
+			}
+		}
+	}
+}

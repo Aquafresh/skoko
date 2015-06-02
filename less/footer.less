@@ -9,6 +9,12 @@
 			color: #fff;
 			padding-top: 30px;
 
+			&:after {
+				content: '';
+				display: table;
+				clear: both;
+			}
+
 			.about-us-column {
 
 				float: left;
@@ -257,7 +263,7 @@
 
 						a {
 
-							color: #fff;
+							color: @c-yellow;
 
 							&:hover {
 
@@ -339,6 +345,13 @@
 		background-color: #000;
 
 		.bottom-footer {
+
+			&:after {
+				content: '';
+				display: table;
+				clear: both;
+			}
+
 
 			p {
 

@@ -1,0 +1,170 @@
+.contact-content {
+
+	padding-bottom: 73px;
+
+	.map {
+
+		height: 650px;
+		width: 100%;
+		margin: 75px 0;
+	}
+
+	.contact-info {
+
+		margin: 0 120px;
+
+		&:after {
+
+			content: '';
+			display: table;
+			clear: both;
+		}
+
+		>.feedback {
+
+			float: left;
+			width: 940px;
+
+			.feedback-form {
+
+			margin-top: 20px;
+
+				input[type="text"],
+				input[type="email"] {
+
+					width: 280px;
+					padding: 13px;
+					border: none;
+					outline: none;
+					margin-bottom: 20px;
+					color: #000;
+				}
+
+				.text-feedback {
+
+					padding: 13px;
+					width: 914px;
+					resize: none;
+					min-height: 170px;
+					outline: none;
+					margin-bottom: 20px;
+					border: none;
+				}
+
+				input[type="submit"] {
+
+					border: none;
+					border-bottom:3px solid @c-yellow;
+					float: right;
+
+					&:hover {
+
+						color: @c-yellow;
+					}
+				}
+			}
+		}
+
+		>.contact-column {
+
+			float: right;
+			width: 300px;
+
+			.contact-adress {
+
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-size: @fz-ltl;
+					padding-left: 40px;
+					margin-bottom: 10px;
+					position: relative;
+					line-height: 25px;
+					margin-top: 25px;
+					color: @c-text;
+
+					&:after {
+
+						content: '\e80a';
+						display: block;
+						width: 25px;
+						height: 25px;
+						font-size: 20px;
+						font-family: @ff-icon;
+						background-color: #000;
+						position: absolute;
+						text-align: center;
+						line-height: 25px;
+						top: 3px;
+						left: 0;
+						color: #fff;
+					}
+				}
+
+				.contact-phone {
+
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-size: @fz-ltl;
+					padding-left: 40px;
+					margin-bottom: 10px;
+					position: relative;
+					line-height: 32px;
+					color: @c-text;
+
+					&:after {
+
+						content: '\e80c';
+					 	display: block;
+						width: 25px;
+						height: 25px;
+						font-size: 20px;
+						font-family: @ff-icon;
+						background-color: #000;
+						position: absolute;
+						text-align: center;
+						line-height: 25px;
+						top: 3px;
+						left: 0;
+						color: #fff;
+					}
+				}
+
+				.contact-email {
+
+					font-family: "Cabin", "Helvetica Neue", Helvetica, sans-serif;
+					font-size: @fz-ltl;
+					padding-left: 40px;
+					position: relative;
+					line-height: 32px;
+					margin-bottom: 30px;
+					color: @c-text;
+
+						a {
+
+							color: @c-yellow;
+							background-color: @bgc-grey;
+
+							&:hover {
+
+								text-decoration: underline;
+							}
+						}
+
+					&:after {
+
+						content: '\e80b';
+					 	display: block;
+						width: 25px;
+						height: 25px;
+						font-size: 20px;
+						font-family: @ff-icon;
+						background-color: #000;
+						position: absolute;
+						text-align: center;
+						line-height: 25px;
+						top: 3px;
+						left: 0;
+						color: #fff;
+					}
+				}
+		}
+	}
+}

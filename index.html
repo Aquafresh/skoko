@@ -26,13 +26,13 @@
 						<a href="portfolio.html">Portfolio</a>
 					</li>
 					<li>
-						<a href="#">Blog</a>
+						<a href="blog.html">Blog</a>
 					</li>
 					<li>
-						<a href="#">About us</a>
+						<a href="about-us.html">About us</a>
 					</li>
 					<li>
-						<a href="#">Contact</a>
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -289,7 +289,7 @@
 					<div class="about-us-column">
 						<span>About us</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, impedit placeat sunt expedita quos officiis dignissimos rem culpa nostrum commodi molestiae molestias deleniti quisquam dolorem modi debitis vel magnam enim.</p>
-						<a class="btn btn-more" href="#">Learn more</a>
+						<a class="btn btn-more" href="error-page.html">Learn more</a>
 						<span>Photo Stream</span>
 						<div class="small-gallery">
 							<div class="top-section">
@@ -416,79 +416,50 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="popup">
+			<p>Список страниц верстки:</p>
+			<a class="exit" href="#" title="Закрыть"></a>
+			<ul>
+				<li>
+					<a href="http://aquafresh.github.io/skoko/index.html">Home</a>
+				</li>
+				<li>
+					<a href="http://aquafresh.github.io/skoko/portfolio.html">Portfolio</a>
+				</li>
+				<li>
+					<a href="http://aquafresh.github.io/skoko/blog.html">Blog</a>
+				</li>
+				<li>
+					<a href="http://aquafresh.github.io/skoko/about-us.html">About us</a>
+				</li>
+				<li>
+					<a href="http://aquafresh.github.io/skoko/contact.html">Contact</a>
+				</li>
+				<li>
+					<a href="http://aquafresh.github.io/skoko/project.html">Portfolio item</a>
+				</li>
+				<li>
+					<a href="http://aquafresh.github.io/skoko/single-post.html">Single post</a>
+				</li>
+				<li>
+					<a href="http://aquafresh.github.io/skoko/error-page.html">404 error</a>
+				</li>
+			</ul>
+		</div>
 	</footer>
+	<script src="js/main.js" type="text/javascript"></script>
 	<script src="js/less.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script>
 
-		   $(document).ready(function(){
-		  $(".owl-carousel").owlCarousel();
-		});
+		$('.owl-carousel').owlCarousel({
+		})
 
-		 $(document).ready(function(){
-		 	$.fn.owlCarousel.options = {
-
-		        items : 8,
-		        itemsCustom : false,
-		        itemsDesktop : [1199, 4],
-		        itemsDesktopSmall : [979, 3],
-		        itemsTablet : [768, 2],
-		        itemsTabletSmall : false,
-		        itemsMobile : [479, 1],
-		        singleItem : false,
-		        itemsScaleUp : false,
-
-		        slideSpeed : 150,
-		        paginationSpeed : 800,
-		        rewindSpeed : 1000,
-
-		        autoPlay : true,
-		        stopOnHover : false,
-
-		        navigation : true,
-		        navigationText : ["prev", "next"],
-		        rewindNav : true,
-		        scrollPerPage : false,
-
-		        pagination : false,
-		        paginationNumbers : false,
-
-		        responsive : true,
-		        responsiveRefreshRate : 200,
-		        responsiveBaseWidth : window,
-
-		        baseClass : "owl-carousel",
-		        theme : "owl-theme",
-
-		        lazyLoad : false,
-		        lazyFollow : true,
-		        lazyEffect : "fade",
-
-		        autoHeight : false,
-
-		        jsonPath : false,
-		        jsonSuccess : false,
-
-		        dragBeforeAnimFinish : true,
-		        mouseDrag : true,
-		        touchDrag : true,
-
-		        addClassActive : false,
-		        transitionStyle : false,
-
-		        beforeUpdate : false,
-		        afterUpdate : false,
-		        beforeInit : false,
-		        afterInit : false,
-		        beforeMove : false,
-		        afterMove : false,
-		        afterAction : false,
-		        startDragging : false,
-		        afterLazyLoad: false
-		    };
-		  $(".clients-carousel").owlCarousel();
-		});
+		$('.clients-carousel').owlCarousel({
+	    items:8
+		})
 	</script>
 </body>
 </html>
