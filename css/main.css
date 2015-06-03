@@ -353,14 +353,15 @@ h4 {
   display: inline-block;
   z-index: 10;
 }
-.main-carousel .carousel-content h2 p {
+.main-carousel .carousel-content h2 span {
   padding: 0 10px;
   background-color: #ffeb00;
+  display: block;
 }
-.main-carousel .carousel-content h2 p:nth-child(1) {
+.main-carousel .carousel-content h2 span:nth-child(1) {
   margin-bottom: 10px;
 }
-.main-carousel .carousel-content h2 p:nth-child(2) {
+.main-carousel .carousel-content h2 span:nth-child(2) {
   width: 625px;
 }
 .main-carousel .carousel-content .carousel-text {
