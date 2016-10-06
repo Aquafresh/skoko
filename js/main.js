@@ -7,3 +7,9 @@ var exit = document.querySelector(".exit");
   popup.classList.add("popup-none");
 
   });
+		$('.owl-carousel').owlCarousel({
+		})
+
+		$('.clients-carousel').owlCarousel({
+	    items:8
+		})
